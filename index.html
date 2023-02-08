@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE-CARD</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font owesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="profile-container">
+
+            <img id="profile-img" class="circle" src="./images/profile.jpeg" onMouseover="src='./images/profile-7.jpeg'"
+                onMouseout="src='./images/profile.jpeg'">
+
+            <h1 class="h1" id="Paragraph">Mouaz Ahmed</h1>
+
+            <p class="para">I am a Professional Web Developer</p>
+
+            <div class="icons">
+
+                <!-- (fa-2xl) is the size of font awesome icon-->
+
+                <!-- FOR YOUTUBE -->
+
+                <a href="https://www.youtube.com/channel/UC41Tus-RaYoiQd6vhe0bgig" target="_blank"><i
+                        class="fa-brands fa-youtube fa-xl" id="yt-icon"
+                        onMouseover="this.style.boxShadow = '0px 0px 26px 9px rgba(207,60,34,1)'"
+                        onMouseout="this.style.boxShadow = 'none'"></i></a>
+
+                <!-- FOR FACEBOOK -->
+
+                <a href="https://www.facebook.com/profile.php?id=100037797758905"><i class="fa-brands fa-facebook fa-xl"
+                        id="fb-icon" onMouseover="this.style.boxShadow = '0px 0px 26px 9px rgba(76,147,201,1)'"
+                        onMouseout="this.style.boxShadow = 'none'"></i></a>
+
+                <!-- FOR GITHUB -->
+                <a href="https://github.com/Mouaz-Ahmed">
+                    <i class="fa-brands fa-github fa-xl" id="google-icon"
+                        onMouseover="this.style.boxShadow = '0px 0px 26px 9px rgba(138,103,202,1)'"
+                        onMouseout="this.style.boxShadow = 'none'"></i>
+                </a>
+                <!-- WHATSAPP -->
+
+                <i class="fa-brands fa-whatsapp fa-2xl" id="whatsapp-icon"
+                    onMouseover="this.style.boxShadow = '0px 0px 26px 9px rgba(61,141,95,1)'"
+                    onMouseout="this.style.boxShadow = 'none'"></i>
+            </div>
+            <div id="btns">
+                <button class="btn">Message</button>
+                <button class="btn">Subscribe</button>
+            </div>
+
+
+            <div class="border-top"></div>
+            <div class="footer">
+                <h1 class="h1-2">SKILLS</h1> <br>
+                <span class="span">WEB-DEVELOPMENT</span>
+                <span class="span">HTML</span>
+                <span class="span">CSS</span> <br> <br>
+                <span class="span">JAVA-SCRIPT</span>
+                <span class="span">UI/UX</span>
+                <span class="span">React</span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
